@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "A happy holiday maker",
+        "description": "",
+        "id": "assert-the-weather-forecast-for-sydney-on-thursday-is-greater-than-10-degree-celsius;a-happy-holiday-maker;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 404484339,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to holiday in Sydney of AU",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney",
+                  "offset": 21
+                },
+                {
+                  "val": "AU",
+                  "offset": 31
+                }
+              ],
+              "location": "HappyHolidayStepDefinition.i_like_to_holiday_in_city_of_country(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1620324,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I only like to holiday on 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 26
+                }
+              ],
+              "location": "HappyHolidayStepDefinition.i_only_like_to_holiday_on_dayOfTheWeek(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6311886689,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I look up the weather forecast",
+            "match": {
+              "location": "HappyHolidayStepDefinition.i_look_up_the_weather_forecast()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7226528,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I receive the weather forecast",
+            "match": {
+              "location": "HappyHolidayStepDefinition.i_receive_the_weather_forecast()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1436900634,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the temperature is warmer than 10 degrees",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 31
+                }
+              ],
+              "location": "HappyHolidayStepDefinition.the_temperature_is_warmer_than_degrees(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Assert the Weather forecast for Sydney on Thursday is greater than 10 Degree Celsius",
+    "description": "",
+    "id": "assert-the-weather-forecast-for-sydney-on-thursday-is-greater-than-10-degree-celsius",
+    "keyword": "Feature",
+    "uri": "HappyHolidayMaker.feature"
+  }
+]
